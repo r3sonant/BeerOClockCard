@@ -1,0 +1,21 @@
+NOTES:
+--------
+--------
+--------
+
+
+
+Removed title bar.
+http://stackoverflow.com/questions/28248162/how-to-remove-title-bar-in-android
+
+In the Style.xml window (App->src->main->res->values->styles.xml) make changes to the <resources> to look like this:
+
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
+
+</resources>
+
+============================
